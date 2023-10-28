@@ -590,3 +590,126 @@ button {
     justify-content: center;
   }
 }
+.footer-block {
+  margin: 0 40px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.footer__info {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.footer__info__nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.footer__info__nav-link {
+  color: rgba(18, 16, 12, 0.7);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+}
+.footer__info-title {
+  color: #12100c;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 19.5px;
+}
+.footer-blocks {
+  margin: 50px 0;
+  padding: 30px 0;
+}
+
+.footer__group-icon {
+  margin: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-icon-text {
+  display: flex;
+  margin: 0 10px;
+}
+.footer-blocks {
+  background: white;
+  width: 1240px;
+  height: 360px;
+}
+.line {
+  margin: 30px auto;
+  width: 852px;
+  height: 1px;
+  background: #ece7e5;
+}
+.footer-icon-text {
+  color: rgba(18, 16, 12, 0.7);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+}
+.footer-footer {
+  background: #ece7e5;
+  width: 1240px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-title {
+  margin: 0 10px;
+  color: rgba(18, 16, 12, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.footer-footer-btn {
+  margin: 0 10px;
+  border-radius: 8px;
+  background: #f9f9f9;
+  width: 163px;
+  height: 32px;
+  color: rgba(18, 16, 12, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.footer-title span {
+  color: rgba(18, 16, 12, 0.59);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+
+@media screen and (max-width: 1100px) {
+  .footer-block {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .footer-blocks {
+    background: white;
+    width: 1240px;
+    height: 540px;
+  }
+  .footer__info__nav-link {
+    color: rgba(18, 16, 12, 0.7);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 19.5px;
+  }
+  .footer__info-title {
+    color: #12100c;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 19.5px;
+  }
+  .footer__info__nav {
+    margin: 10px 0;
+  }
+}
