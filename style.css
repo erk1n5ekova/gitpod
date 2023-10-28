@@ -3,6 +3,9 @@
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+body {
+  background: #f9f9f9;
+}
 .container {
   max-width: 1240px;
   margin: 0 auto;
@@ -202,6 +205,9 @@ a {
     margin: 20px 0;
   }
 }
+.remote__group-img {
+  width: 100%;
+}
 .remote__group-title {
   color: #12100c;
   font-size: 54px;
@@ -249,4 +255,145 @@ a {
   align-items: center;
   justify-content: center;
   gap: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .remote__group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.biography-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+.biography-title {
+  color: #12100c;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 63.72px;
+}
+.biograhpy-group {
+  border-radius: 16px;
+  background: #fff;
+  width: 384px;
+  height: 248px;
+}
+.biograhpy-group-text {
+  color: #12100c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 329px;
+  padding: 24px 0 10px 24px;
+}
+.biograhpy-group-text2 {
+  color: #12100c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 329px;
+  padding: 0 0 20px 24px;
+}
+.biography-img {
+  display: flex;
+  padding: 0 24px;
+}
+.biography-img img {
+  width: 48px;
+  height: 48px;
+}
+.biography-info {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0 10px;
+}
+.biography-info-title {
+  color: #12100c;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.biography-info-text {
+  color: #12100c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.biography-info-text span {
+  color: #12100c;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.biography-info-text2 {
+  color: #12100c;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.biography__block {
+  display: flex;
+  justify-content: space-between;
+}
+.biograhpy-group2 {
+  border-radius: 16px;
+  background: #fff;
+  width: 384px;
+  height: 272px;
+}
+@media screen and (max-width: 1150px) {
+  .biography__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .biography__block {
+    margin: 0 0 20px 0;
+  }
+  .biograhpy-group2 {
+    margin: 20px 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  .biography-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+.biography-icons {
+  margin: 50px 0;
+}
+.biography-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+}
+.biography-icon2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+@media screen and (max-width: 1200px) {
+  .biography-icon {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .biography-icon2 {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
